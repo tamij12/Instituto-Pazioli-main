@@ -1,16 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface:regular);
 @import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-@import url(./imagenes/);
+@import url(./Instituto-Pazioli-main/imagenesSection2/);
 
 
 
 *{
     margin: 0%;
     padding: 0%;
-       }
-
-
-
+       }       
 .nuevo__modelo{
     background-image: url(./imagenes/nuevo-modelo-background-image.png);
     width: 320px;
@@ -34,7 +31,6 @@
     height: 309.61px;
     display: grid;
 }
-
 
 .nuevo__modelo__section2{
     height: 468.39px;
