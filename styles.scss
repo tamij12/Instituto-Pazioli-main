@@ -1,0 +1,209 @@
+*body{
+    margin: 0%;
+    padding: 0%;
+}
+.section__contact--container{
+    background: url(/bg-piano-gradent.svg),transparent;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Contact__h2{
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Abril Fatface';
+}
+.contac__form{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.Contatc__form--input{
+    background-color:black;
+    opacity: .5;
+    height: 30px;
+}
+.Contact__p{
+    text-align: center;
+    width: 470px;
+    font-family: 'Raleway';
+    margin: 40px;
+}
+.Contact__font--email{
+    display: inline;
+}
+.contact__form--textarea{
+    background-color:black;
+    opacity: .5;
+}
+.contact--button{
+    border-radius: 10px;
+    font-weight: bold;
+    color:aliceblue;
+    background-color: black;
+    height: 30px;
+    font-family: 'Poppins';
+}
+.Contatc__form--label{
+    font-family: 'Raleway';
+    margin-bottom: -30px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .section__contact--container{
+        background: url(/bg-piano-gradent.svg),transparent;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contac__form{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    .Contatc__form--input{
+        background-color:black;
+        opacity: .5;
+        height: 30px;
+        width:90%;
+    }
+    .Contact__p{
+        text-align: center;
+        width: 60%;
+        font-family: 'Raleway';
+        margin: 40px;
+    }
+}
+
+ 
+@media only screen and (min-width: 600px) {
+    .section__contact--container{
+        background: url(/bg-piano-gradent.svg),transparent;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contac__form{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    .Contatc__form--input{
+        background-color:black;
+        opacity: .5;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .section__contact--container{
+        background: url(/bg-piano-gradent.svg),transparent;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contac__form{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    .Contatc__form--input{
+        background-color:black;
+        opacity: .5;
+        height: 30px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .section__contact--container{
+        background: url(/bg-piano-gradent.svg),transparent;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .contac__form{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    .Contatc__form--input{
+        background-color:black;
+        opacity: .5;
+        height: 30px;
+    }
+    .Contact__p{
+        text-align: center;
+        width: 470px;
+        font-family: 'Raleway';
+        margin: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .section__contact--container{
+        background: url(/bg-piano-gradent.svg),transparent;
+        background-repeat: no-repeat;
+        background-size:cover;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .contac__form{
+        display: flex;
+        height: 600px;
+        flex-direction: column;
+        justify-content: space-between;
+        font-weight: bold;
+    }
+    .Contatc__form--input{
+        background-color:black;
+        opacity: .5;
+        height: 30px;
+    }
+    .Contact__p{
+        text-align: center;
+        width: 470px;
+        font-family: 'Raleway';
+        margin: 40px;
+    }
+}  
