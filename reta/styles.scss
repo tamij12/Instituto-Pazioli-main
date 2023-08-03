@@ -1,0 +1,193 @@
+// SECTION 3 INICIO
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para el título principal */
+.section3__main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ajusta la altura a tu preferencia */
+  text-align: center;
+}
+
+.section3__main-title {
+  font-size: 32px;
+  //   margin: 154px;
+  padding: 34px;
+  width: 470px;
+  height: 62px;
+  display: flex;
+  position: relative;
+  bottom: 100px;
+  justify-content: center;
+}
+
+/* Estilos para las tarjetas */
+.section3__card-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.section3__card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  height: 200px;
+  background-color: white;
+  box-shadow: -1px 19px 40px 8px rgba(155, 155, 155, 0.76);
+  border-radius: 5%;
+  .section3__card-image {
+    position: relative;
+    bottom: 130px;
+  }
+}
+
+.section3__divider {
+  border-bottom: 1px dashed #999;
+  margin: 10px 0;
+  padding-bottom: 10px;
+  position: relative;
+  bottom: 130px;
+}
+
+.section3__image-piano {
+  height: 167px;
+}
+
+.section3__image-piano-cafe {
+  position: relative;
+  bottom: 13px;
+}
+
+.section3__card-content {
+  display: flex;
+  flex-direction: column; /* Alinear los elementos verticalmente */
+  position: relative;
+  bottom: 130px;
+}
+
+/* Estilos para el título de la tarjeta */
+.section3__card-title {
+  font-size: 20px;
+  margin: 0; /* Eliminar margen por defecto */
+  margin-bottom: 20px; /* Añadir espacio entre el título y la lista */
+  text-align: left;
+}
+
+/* Estilos para la lista horizontal */
+.section3__card-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between; /* Distribuir uniformemente los elementos */
+}
+
+.section3__card-list-item {
+  /* Espaciado entre elementos */
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.section3__card-list-item--elipse::after {
+  content: "•"; /* Elipse */
+  margin: 0 5px; /* Espaciado entre elipse y el siguiente elemento */
+}
+
+.section3__button-container {
+  display: flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+  gap: 10px; /* Espacio entre el botón y el enlace */
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.section3__card-button {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.section3__cart-link {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 10px;
+}
+
+.section3__button-container-footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin: 60px;
+  .section3__button-item {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 129px;
+    height: 32px;
+  }
+}
+
+.section3__cart-link img {
+  height: 60%;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  /* Cambiar a diseño vertical en pantallas pequeñas */
+  .section3__main-section {
+    height: auto;
+  }
+
+  .section3__main-title {
+    width: auto;
+    position: relative;
+    bottom: 0;
+  }
+
+  .section3__card-container {
+    flex-direction: column;
+    gap: 10px; /* Espacio entre elementos */
+  }
+  .section3__card {
+    height: 350px;
+    width: 250px;
+  }
+  .section3__image-piano {
+    .section3__card-image {
+      bottom: 0;
+    }
+  }
+  .section3__divider {
+    bottom: 9px;
+  }
+  .section3__card-content {
+    bottom: -11px;
+  }
+
+  .section3__button-item {
+    margin-bottom: 40px;
+  }
+}
+
+// SECTION 3 INICIO
