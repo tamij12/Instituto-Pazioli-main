@@ -7,7 +7,7 @@
 }
 
 .nuevo__modelo {
-  background-image: url(./imagenes/nuevo-modelo-background-image.png);
+  background-image: url(./Instituto-Pazioli-main/imagenesSection2/nuevo-modelo-background-image.png);
   width: 320px;
   top: 608px;
   height: 778px;
@@ -23,7 +23,7 @@
     border: 1px;
     font-family: "Raleway";
     color: white;
-    background-image: url(./imagenes/desktop-nuevo-modelo-background.png);
+    background-image: url(./Instituto-Pazioli-main/imagenesSection2/desktop-nuevo-modelo-background.png);
   }
 }
 .nuevo__modelo__section1 {
@@ -81,7 +81,7 @@
   }
 }
 .z__index__one {
-  content: url(./imagenes/Vector.svg);
+  content: url(./Instituto-Pazioli-main/imagenesSection2/Vector.svg);
   z-index: 1;
   top: 100px;
   position: absolute;
@@ -90,7 +90,7 @@
 
 @media only screen and (min-width: 960px) {
   .z__index__one {
-    content: url(./imagenes/Desktop-Vector.png);
+    content: url(./Instituto-Pazioli-main/imagenesSection2/Desktop-Vector.png);
     z-index: 1;
     top: 320px;
     position: absolute;
@@ -100,7 +100,7 @@
   }
 }
 .z__index__two {
-  content: url(./imagenes/Vector2.svg);
+  content: url(./Instituto-Pazioli-main/imagenesSection2/Vector2.svg);
   position: absolute;
   z-index: 2;
   top: 100px;
@@ -109,7 +109,7 @@
 
 @media only screen and (min-width: 960px) {
   .z__index__two {
-    content: url(./imagenes/Desktop-Vector2.png);
+    content: url(./Instituto-Pazioli-main/imagenesSection2/Desktop-Vector2.png);
     z-index: 2;
     top: 335px;
     position: absolute;
@@ -119,7 +119,7 @@
   }
 }
 .z__index__three {
-  content: url(./imagenes/icons.png);
+  content: url(./Instituto-Pazioli-main/imagenesSection2/icons.png);
   position: absolute;
   z-index: 3;
   top: 100px;
@@ -128,7 +128,7 @@
 
 @media only screen and (min-width: 960px) {
   .z__index__three {
-    content: url(./imagenes/desktop-icons.png);
+    content: url(./Instituto-Pazioli-main/imagenesSection2/desktop-icons.png);
     z-index: 3;
     top: 330px;
     position: absolute;
@@ -138,7 +138,7 @@
   }
 }
 .z__index__four {
-  content: url(./imagenes/ebony-model-piano.png);
+  content: url(./Instituto-Pazioli-main/imagenesSection2/ebony-model-piano.png);
   z-index: 4;
   width: 209.94px;
   height: 175.46p;
@@ -149,7 +149,7 @@
 
 @media only screen and (min-width: 960px) {
   .z__index__four {
-    content: url(./imagenes/desktop-ebony-model-piano.png);
+    content: url(./Instituto-Pazioli-main/imagenesSection2/desktop-ebony-model-piano.png);
     z-index: 4;
     top: 340px;
     position: absolute;
