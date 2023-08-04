@@ -62,15 +62,14 @@
 @media only screen and (min-width: 600px) {
   footer {
     margin: 0px;
-    width: 1200px;
+    width: auto;
     padding: 80px;
     background: linear-gradient(white, #6F6F6F);
   }
   footer .footer__container {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    width: auto;
+    justify-content: center;
   }
   footer .footer__container .social-media__container {
     width: 420px;
